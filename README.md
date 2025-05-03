@@ -12,8 +12,10 @@
 ## 🚀 Tecnologias
 
 <div align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+
+![HTML](https://img.shields.io/badge/HTML-5E44?style=flat-square&logo=html5&logoColor=white&color=E34F26)
+![CSS](https://img.shields.io/badge/CSS-3?style=flat-square&logo=css3&logoColor=white&color=1572B6)
+
 </div>
 
 ---
