@@ -34,11 +34,13 @@ Estou aprendendo na prática como criar sites usando HTML e CSS puros, com foco 
 
 ## 📂 Estrutura do projeto
 
+```
 nether-gate/
 ├── index.html
 ├── style.css
 └── assets/
-└── logo.png
+    └── logo.png
+```
 
 
 ---
@@ -55,8 +57,8 @@ nether-gate/
 
 ## 📸 Preview
 
-> Em breve disponível em: [https://seu-usuario.github.io/nether-gate](https://seu-usuario.github.io/nether-gate)  
-(⚙️ Lembre-se de ativar o GitHub Pages nas configurações do repositório)
+> Em breve disponível em: [https://eluedes.github.io/nether-gate](#)  
+
 
 ---
 
