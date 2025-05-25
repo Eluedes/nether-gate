@@ -59,7 +59,6 @@ nether-gate/
 🔜 Próximos passos:
 - Responsividade
 - JavaScript interativo
-- Deploy com GitHub Pages
 
 ---
 
@@ -79,11 +78,13 @@ Sinta-se à vontade para abrir issues ou forks. 😉
 
 ## 🧠 Aprendizados até agora
 
-- Trabalhar com `div`, `section`, `header`, `footer`
-- Centralizar elementos com `flexbox`
-- Criar e aplicar estilos com `style.css`
-- Inserir imagens e organizar pastas
-- Publicar projetos no GitHub
+- Estruturar páginas com `div`, `section`, `header`, `footer` e `main`
+- Centralizar e alinhar elementos usando `flexbox` e propriedades de CSS modernas
+- Criar menus de navegação com submenu suspenso usando apenas HTML e CSS
+- Utilizar múltiplos arquivos CSS (global e específico para páginas do submenu)
+- Inserir e manipular imagens, além de organizar a estrutura de pastas (`assets`, `submenu`)
+- Aplicar diferentes formas de declarar CSS: inline, interno e externo
+- Destacar exemplos de código com estilização personalizada
 
 ---
 
