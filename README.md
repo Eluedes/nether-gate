@@ -27,10 +27,11 @@ Estou aprendendo na prática como criar sites usando HTML e CSS puros, com foco 
 
 ### ✨ Funcionalidades
 
-- Layout escuro e moderno
-- Logo personalizada centralizada
-- Navegação simples e clara
-- Estrutura de pastas organizada
+- Layout escuro e moderno e responsivo
+- Logo personalizada centralizada no topo
+- Menu de navegação com submenu suspenso em CSS puro
+- Estrutura de pastas organizada (`assets`, `submenu`)
+- Exemplos práticos de CSS e HTML para estudo
 
 ---
 
