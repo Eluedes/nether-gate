@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nether Gate</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="folha.css">
+  <link rel="shortcut icon" href="../assets/favicon.png" type="image/png">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+        <a href="index.html" class="logo-link">
+          <img src="../assets/logo.png" alt="Logo do Nether Gate" class="logo" />
+        </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../about.html">Sobre</a></li>
+        <li class="dropdown">
+          <a href="#">Projetos de Estudos</a>
+            <ul class="submenu">
+              <li><a href="declarar-css.html">Formas de Declarar CSS</a></li>
+              <li><a href="seletores-css.html">Seletores CSS</a></li>
+            </ul>
+        </li>
+        <li><a href="https://github.com/Eluedes" target="_blank">Contato</a></li>
+    </nav>
+  </header>
+
+  <main>
+    <header>
+      <h1>Seletores CSS</h1>
+      <p>Conheça os principais tipos de seletores utilizados em CSS.</p>
+    </header>
+
+     <section>
+      <h2>1. Seletor de Elemento</h2>
+      <p>Seleciona todos os elementos de um tipo específico.</p>
+      <code>p { color: blue; }</code>
+    </section>
+
+    <section>
+      <h2>2. Seletor de Classe</h2>
+      <p>Seleciona todos os elementos com a classe especificada.</p>
+      <code>.destaque { font-weight: bold; }</code>
+    </section>
+
+    <section>
+      <h2>3. Seletor de ID</h2>
+      <p>Seleciona um único elemento com o ID especificado.</p>
+      <code>#cabecalho { background-color: gray; }</code>
+    </section>
+
+    <section>
+      <h2>4. Seletor Universal</h2>
+      <p>Seleciona todos os elementos da página.</p>
+      <code>* { margin: 0; padding: 0; }</code>
+    </section>
+
+    <section>
+      <h2>5. Seletor de Descendente</h2>
+      <p>Seleciona elementos dentro de outros elementos.</p>
+      <code>div p { color: green; }</code>
+    </section>
+
+    <section>
+      <h2>6. Seletor de Filho Direto</h2>
+      <p>Seleciona apenas os elementos filhos diretos de um elemento pai.</p>
+      <code>ul > li { list-style: none; }</code>
+    </section>
+
+    <section>
+      <h2>7. Seletor de Atributo</h2>
+      <p>Seleciona elementos que possuem um atributo específico.</p>
+      <code>input[type="text"] { border: 1px solid #ccc; }</code>
+    </section>
+
+    <section>
+      <h2>8. Seletor de Irmão Adjacente</h2>
+      <p>Seleciona um elemento imediatamente após outro.</p>
+      <code>h1 + p { font-style: italic; }</code>
+    </section>
+  </main>
+
+  <footer>
+ <p>&copy; 2025 <span class="negrito">Rafael Guedes</span> | Projeto de Estudo feito com ❤️</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nether Gate</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="folha.css">
+  <link rel="shortcut icon" href="../assets/favicon.png" type="image/png">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+        <a href="index.html" class="logo-link">
+          <img src="../assets/logo.png" alt="Logo do Nether Gate" class="logo" />
+        </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../about.html">Sobre</a></li>
+        <li class="dropdown">
+          <a href="#">Projetos de Estudos</a>
+            <ul class="submenu">
+              <li><a href="declarar-css.html">Formas de Declarar CSS</a></li>
+              <li><a href="seletores-css.html">Seletores CSS</a></li>
+            </ul>
+        </li>
+        <li><a href="https://github.com/Eluedes" target="_blank">Contato</a></li>
+    </nav>
+  </header>
+
+  <main>
+    <header>
+      <h1>Formas de Declarar CSS</h1>
+      <p>Aprenda os três métodos principais para aplicar estilos em páginas HTML.</p>
+    </header>
+
+     <section>
+      <h2>1. CSS Inline</h2>
+      <p>Estilos aplicados diretamente no elemento HTML usando o atributo <code>style</code></p>
+      <p>Exemplo:</p>
+      <code>&lt;p style="color: red;"&gt;Texto em vermelho&lt;/p&gt;</code>
+    </section>
+
+    <section>
+      <h2>2. CSS Interno</h2>
+      <p>Estilos escritos dentro da tag <code>&lt;style&gt;</code> no cabeçalho do documento.</p>
+      <p>Exemplo:</p>
+      <code>
+        &lt;style&gt;<br>
+        &nbsp;&nbsp;p { color: blue; }<br>
+        &lt;/style&gt;
+      </code>
+    </section>
+
+    <section>
+      <h2>3. CSS Externo</h2>
+      <p>Estilos definidos em um arquivo separado e vinculados com a tag <code>&lt;link&gt;</code></p>
+      <p>Exemplo:</p>
+      <code>&lt;link rel="stylesheet" href="estilos.css"&gt;</code>
+    </section>
+  </main>
+
+  <footer>
+ <p>&copy; 2025 <span class="negrito">Rafael Guedes</span> | Projeto de Estudo feito com ❤️</p>
+  </footer>
+</body>
+</html>
