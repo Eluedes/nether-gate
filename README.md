@@ -65,7 +65,7 @@ nether-gate/
 
 ## 📸 Preview
 
-> Em breve disponível em: [https://eluedes.github.io/nether-gate](#)  
+> [Nether Gate](https://nethergate.online/)  
 
 
 ---
