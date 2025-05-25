@@ -38,10 +38,16 @@ Estou aprendendo na prática como criar sites usando HTML e CSS puros, com foco 
 
 ```
 nether-gate/
-├── index.html
-├── style.css
-└── assets/
+├── assets/
+    └── favicon.png
     └── logo.png
+├── submenu/
+    └── declarar-css.html
+    └── folha.css
+    └── seletores-css.html
+├── index.html
+├── about.html
+└── style.css
 ```
 
 
