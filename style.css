@@ -17,7 +17,7 @@ header {
   max-width: 200px;
   height: auto;
 
-} 
+}
 
 nav ul {
   list-style: none;
@@ -28,20 +28,68 @@ nav ul {
 }
   
 nav a {
+  position: relative;
   color: #f0f0f0;
   text-decoration: none;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 nav a:hover {
-  color: #ac2b2b;
-  text-decoration: underline;
+  background-color: #1a0000;
+  box-shadow: 0 0 8px #8b0000;
+  color: #ff1a1a;
+  text-decoration: none;
+  transform: scale(1.05);
 }
-  
+
+
 .intro {
   padding: 40px;
   text-align: center;
 }
- 
+
+.intro h2 {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: inline-flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px ;
+  flex-wrap: wrap;
+}
+
+.portal-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  background: radial-gradient(circle at top left, #000000, #2a0000);
+  padding: 14px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 0 12px #8b0000;
+  transition: all 0.3s ease;
+}
+
+.portal-button:hover {
+  box-shadow: 0 0 20px #ff1a1a, 0 0 14px #8b0000;
+  transform: scale(1.05);
+}
+
+.icon-large {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px #8b0000);
+}
+
 footer {
   text-align: center;
   padding: 10px;
@@ -89,10 +137,14 @@ footer {
 }
 
 .submenu li a:hover {
-  color: #ac2b2b;
-  border-radius: 0;
-  text-decoration: underline;
+  background-color: #1a0000;
+  color: #ff1a1a;
+  box-shadow: 0 0 8px #8b0000;
+  transform: scale(1.03);
+  border-radius: 8px;
+  text-decoration: none;
 }
+
 
 .dropdown:hover .submenu {
   display: block;
