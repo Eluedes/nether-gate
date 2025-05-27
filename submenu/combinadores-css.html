@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nether Gate - Declarar CSS</title>
+  <title>Nether Gate - Combinadores CSS</title>
   <link rel="stylesheet" href="../style.css?v=0.2">
   <link rel="stylesheet" href="folha.css">
   <link rel="shortcut icon" href="../assets/favicon.png" type="image/png">
@@ -16,7 +16,7 @@
         </a>
     </div>
     <nav>
-       <ul>
+      <ul>
         <li><a href="../index.html">Início</a></li>
         <li><a href="../about.html">Sobre</a></li>
         <li class="dropdown">
@@ -33,35 +33,27 @@
 
   <main>
     <header>
-      <h1>Formas de Declarar CSS</h1>
-      <p>Aprenda os três métodos principais para aplicar estilos em páginas HTML.</p>
+      <h1>Combinadores CSS</h1>
+      <p>Conheça os principais combinadores CSS e como eles permitem selecionar elementos de forma avançada usando relações entre tags.</p>
     </header>
 
      <section>
-      <h2>1. CSS Inline</h2>
-      <p>Estilos aplicados diretamente no elemento HTML usando o atributo <code>style</code></p>
-      <p>Exemplo:</p>
-      <code>&lt;p style="color: red;"&gt;Texto em vermelho&lt;/p&gt;</code>
-    </section>
-
-    <section>
-      <h2>2. CSS Interno</h2>
-      <p>Estilos escritos dentro da tag <code>&lt;style&gt;</code> no cabeçalho do documento.</p>
+      <h2>1. Agrupamento de Seletores</h2>
+      <p>O agrupamento de seletores permite aplicar o mesmo conjunto de regras CSS a vários elementos diferentes, separando os seletores por vírgula. Isso evita repetição de código e facilita a manutenção do estilo.</p>
       <p>Exemplo:</p>
       <code>
-        &lt;style&gt;<br>
-        &nbsp;&nbsp;p { color: blue; }<br>
-        &lt;/style&gt;
+        <span class="seletor">h1</span>, <span class="seletor">p</span>, <span class="seletor">div</span> {<br> <span class="propriedade">&nbsp;&nbsp;color:</span> <span class="valor">blue;</span> <br>}
       </code>
     </section>
 
     <section>
-      <h2>3. CSS Externo</h2>
-      <p>Estilos definidos em um arquivo separado e vinculados com a tag <code>&lt;link&gt;</code></p>
+      <h2>2. Seletores de Classe em Elementos Específicos</h2>
+      <p>Você pode aplicar estilos apenas a elementos de uma determinada tag que possuam uma classe específica, utilizando o seletor de classe junto ao nome da tag.</p>
       <p>Exemplo:</p>
-      <code>&lt;link rel="stylesheet" href="estilos.css"&gt;</code>
+      <code>
+        <span class="seletor">a.texto</span> {<br> <span class="propriedade">&nbsp;&nbsp;text-decoration: </span> <span class="valor">underline;</span> <br>}
+      </code>
     </section>
-  </main>
 
   <footer>
  <p>&copy; 2025 <span class="negrito">Rafael Guedes</span> | Projeto de Estudo feito com ❤️</p>
